@@ -1,0 +1,8 @@
+setting,score_last100_mean,score_last100_std,normalized(random=0;best=1),mean_return_all_training,mean_KL,n_seeds
+No clipping / penalty,276.1,96.8,0.56,365.6,0.6296,10
+Clip eps=0.1,440.5,11.5,0.92,355.0,0.0020,10
+Clip eps=0.2,473.9,9.0,0.99,402.9,0.0055,10
+Clip eps=0.3,474.5,11.5,0.99,416.1,0.0106,10
+Adaptive KL (d_targ=0.01),477.4,7.5,1.00,406.2,0.0167,10
+Fixed KL (beta=1),476.5,10.6,1.00,408.9,0.0045,10
+random_policy_score,22.7
